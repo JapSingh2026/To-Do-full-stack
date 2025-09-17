@@ -1,0 +1,64 @@
+body {
+    color: white;
+}
+
+.title {
+
+    text-align: center;
+    font-size: large;
+    justify-content: center;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: slategray;
+    border: 2px solid black;
+
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.container {
+
+    align-items: center;
+    background-color: slategrey;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+
+
+
+}
+
+
+
+.tasks {
+    text-align: center;
+    align-items: center;
+}
